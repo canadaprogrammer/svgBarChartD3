@@ -1,0 +1,17 @@
+rect {
+    fill: darkred;
+}
+g:nth-child(even) rect {
+    fill: darkblue;
+}
+g rect:hover {
+    fill: lightsalmon;
+}
+.chart text {
+    fill:white;
+    font: 10px san-serif;
+    text-anchor: end;
+}
+.chart g.active text {
+    fill: black;
+}
